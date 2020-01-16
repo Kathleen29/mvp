@@ -1,0 +1,26 @@
+body {
+  background-color: #333333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16pt;
+  color: white;
+  margin-top: 20px;
+}
+
+button, input[type='submit'], input[type='reset'] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.genre-list {
+  height: 180px;
+  position: absolute;
+}
+
+.artist {
+  font-size: 12pt;
+}

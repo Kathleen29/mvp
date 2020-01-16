@@ -1,0 +1,40 @@
+{
+  "name": "mvp-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js",
+    "build": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kathleen29/hrr42-mvp.git"
+  },
+  "author": "kathleen29",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kathleen29/hrr42-mvp/issues"
+  },
+  "homepage": "https://github.com/Kathleen29/hrr42-mvp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^2.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "express": "^4.15.0",
+    "jquery": "^3.1.1",
+    "mongoose": "^5.8.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
